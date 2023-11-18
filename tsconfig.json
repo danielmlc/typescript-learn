@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES6",
+    "lib": [
+      "ES2015",
+      "ES2016",
+      "ES2017",
+      "DOM"
+    ],
+    "noEmitOnError": true,
+    "outDir": "./lib",
+    "declarationDir": "lib/types",
+    "declaration": true
+  },
+  "exclude": [
+    "./test",
+    "./lib",
+    "node_modules/",
+  ]
+}

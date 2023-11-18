@@ -1,0 +1,11 @@
+{
+  "entryPoints": [
+    "src"
+  ],
+  "exclude": [
+    "node_moudles"
+  ],
+  "includeVersion": "modules",
+  "out": "docs",
+  "hideGenerator": true
+}
